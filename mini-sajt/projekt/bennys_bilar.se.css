@@ -1,0 +1,23 @@
+@import url();
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bilar {
+    display: none; 
+}
+header {
+    border-bottom: solid;
+    border-width: 1px;
+    height: 11.6%;
+}
+footer {
+    border-top: solid;
+    border-width: 1px;
+    height: 16.4%;
+}
+section {
+    height: 72%
+}
