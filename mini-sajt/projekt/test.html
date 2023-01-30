@@ -9,17 +9,17 @@
     </head>
     <body>
         <header>
-            <div class="benny"> <h1> Bennys bilar </h1> <a href="bennys_login.html"><button>Login</button></a> </div>
+            <div class="benny"> <h1> Bennys bilar </h1> </div>
             
             <aside> 
                 <div class="meny">
                   <p>Meny</p>
                   <div id=länkar> 
 
-                    <a href="bennys_SUVar.html">SUV:ar</a>
-                    <a href="bennys_sedaner.html">Sedaner</a>
-                    <a href="bennys_sportbilar.html">Sport</a>
-                    <a href="bennys_diverse.html">Diverse</a>
+                    <a href="#news">SUV:ar</a>
+                    <a href="#contact">Sedaner</a>
+                    <a href="#about">Sport</a>
+                    <a href="#about">Diverse</a>
                   </div>
                   
                   <a class="icon" href="javascript:void(0);" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
@@ -60,7 +60,20 @@
                   x.style.display = "block";
                 }
               }
+
+              function myFunction() {
+                var x = document.getElementById("länkar");
+                console.log("x=" + x);
+                if (x.style.display === "block") {
+                  console.log("display=none");
+                  x.style.display = "none";
+                } else {
+                  console.log("display=block");
+                  x.style.display = "block";
+                }
+              }
         
           </script>
+
     </body>
 </html>

@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: lightgray;
+    height: 5%
+}
+
+button {
+    float: right;
+    margin-right: 1%;
+    margin-top: 0.5%;
+}
+
+
+section {
+    height: 42,5%;
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: lightgray;
+    height: 10%;
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 10%;
+}
+
+.benny {
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: brown;
+}
+
+aside {
+    float: right;
+    width: 50%;
+}
+
+.meny {
+    height: 60%; 
+    width: 40%;
+    border: solid;
+    border-width: 1px;
+    float: right;
+    margin-right: 6%;
+    margin-top: 3%;
+    position: relative;
+}
+.meny p{
+    margin-left: 14px;
+    margin-top: 6.5px;
+    font-family: ubuntu;
+    font-size: 160%;
+}
+
+.meny #länkar {
+    display: none;
+    z-index: 2;
+}
+
+.meny a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: white;
+    border:solid;
+    border-width: 1px;
+    color: black
+}
+
+.meny a.icon {
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height:35%;
+    border:0px
+}
+section {
+    height: 72%
+}
+
+.bilar {
+    display: none; 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bakgrundsbilar { 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    border-top: solid;
+    border-width: 1px;
+    height: 18%;
+}
+
+.beskriv {
+    font-family: Ubuntu;
+    font-size: 20px;
+    margin-top: 36%;
+    margin-left: 1%;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
